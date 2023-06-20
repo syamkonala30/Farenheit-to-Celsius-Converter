@@ -1,7 +1,3 @@
-// Syam Konala
-// BMEN 1300-002
-// 11/29/2022
-
 #include <iostream>
 #include <iomanip>
 using namespace std;
@@ -16,7 +12,7 @@ int main()
 		<< "  Fahrenheit       Celsius\n"
 		<< "------------------------------\n";
 
-	for (int F = 0; F <= 20; F++)
+	for (int F = 0; F <= 10000; F++)
 	{
 		cout << "      " << setw(2) << F;
 		cout << "          "
